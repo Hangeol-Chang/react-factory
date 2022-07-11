@@ -1,5 +1,6 @@
 import * as React from 'react';
-import {Typography, Box} from '@material-ui/core';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
 
 export default function Room() {
   return (
@@ -7,7 +8,7 @@ export default function Room() {
       component="div"
       variant="body1"
       style={{
-        height: 100,
+        height: 200,
         width: '100%',
         position: 'relative',
       }}
